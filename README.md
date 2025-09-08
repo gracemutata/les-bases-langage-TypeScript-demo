@@ -11,12 +11,7 @@
 -   **Solution :**
     
     ```
-    let nom: string = "John Doe";
-    let age: number = 30;
-    let estEtudiant: boolean = true;
-    let valeurNull: null = null;
-    let valeurUndefined: undefined = undefined;
-    
+
     ```
     
 
@@ -27,11 +22,7 @@
 -   **Solution :**
     
     ```
-    let nombres: number[] = [1, 2, 3];
-    let noms: string[] = ["Alice", "Bob", "Charlie"];
-    
-    nombres.push(4);
-    noms.push("David");
+
     
     ```
     
@@ -43,11 +34,7 @@
 -   **Solution :**
     
     ```
-    function addition(a: number, b: number): number {
-      return a + b;
-    }
-    
-    let resultat: number = addition(5, 3);
+  
     
     ```
     
@@ -59,16 +46,7 @@
 -   **Solution :**
     
     ```
-    interface Personne {
-      nom: string;
-      âge: number;
-    }
-    
-    let personne: Personne = {
-      nom: "Alice",
-      âge: 25,
-    };
-    
+ 
     ```
     
 
@@ -79,22 +57,7 @@
 -   **Solution :**
     
     ```
-    class Voiture {
-      private marque: string;
-      private modèle: string;
-    
-      constructor(marque: string, modèle: string) {
-        this.marque = marque;
-        this.modèle = modèle;
-      }
-    
-      afficherInfos() {
-        console.log(`Marque : ${this.marque}, Modèle : ${this.modèle}`);
-      }
-    }
-    
-    let maVoiture = new Voiture("Toyota", "Camry");
-    maVoiture.afficherInfos();
+   
     
     ```
     
@@ -106,13 +69,7 @@
 -   **Solution :**
     
     ```
-    function premierElement<T>(tableau: T[]): T {
-      return tableau[0];
-    }
-    
-    let premierNombre = premierElement([1, 2, 3]);
-    let premierNom = premierElement(["Alice", "Bob", "Charlie"]);
-    
+  
     ```
     
 
@@ -123,10 +80,7 @@
 -   **Solution :**
     
     ```
-    let valeur: number | string;
-    
-    valeur = 10;
-    valeur = "Bonjour";
+   
     
     ```
     
@@ -138,14 +92,7 @@
 -   **Solution :**
     
     ```
-    enum Couleur {
-      Rouge,
-      Vert,
-      Bleu,
-    }
-    
-    let couleur: Couleur = Couleur.Rouge;
-    
+
     ```
     
 
@@ -156,11 +103,7 @@
 -   **Solution :**
     
     ```
-    let point: [number, number] = [10, 20];
-    
-    let x = point[0];
-    let y = point[1];
-    
+
     ```
     
 
@@ -171,11 +114,6 @@
 -   **Solution :**
     
     ```
-    let nom: string | null = "Alice";
-    
-    if (nom !== null) {
-      console.log("Bonjour, " + nom);
-    }
-    
+   
     ```
     
